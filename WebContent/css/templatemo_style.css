@@ -1,0 +1,255 @@
+/*
+Credit: http://www.templatemo.com
+*/
+
+@font-face {
+	font-family: "jaf-facitweb","Helvetica Neue",Arial,sans-serif;
+	src: url(GARABD.TTF);
+}
+
+body {
+		min-width:1050px;
+	margin: 0;
+	padding: 0;
+	color: #000000;
+	font-family: "jaf-facitweb","Helvetica Neue",Arial,sans-serif;
+	font-size: 14px;
+	line-height: 1.4em;
+	background-color: #FFFFFF;
+}
+
+a, a:link, a:visited { color: #e5bb58; font-weight: normal; text-decoration: none }
+a:hover { text-decoration: underline; }
+
+a.gototop { clear: both; display:block; float: right; margin-top: 40px; height: 20px; line-height: 20px; font-size: 11px; color: #485163; font-weight: 700; padding-left: 15px; background: url(../images/go_to_top.png) scroll 0 3px no-repeat }
+
+p { margin: 0 0 10px 0; padding: 0; }
+img { border: none; }
+em { color: #fff }
+blockquote { font-style: italic; margin: 0 0 20px 0}
+cite { font-weight: bold; color:#e5bb58; }
+cite a, cite a:link, cite a:visited  { font-size: 12px; text-decoration: none; font-style: normal }
+cite span { font-weight: 400; color: #606776; }
+
+h1, h2, h3, h4, h5, h6 { color: #bac9ee; font-weight: normal; }
+h1 { font-size: 36px; margin: 0 0 30px; padding: 5px 0 }
+h2 { font-size: 24px; margin: 0 0 25px; padding: 5px 0 }
+h3 { font-size: 20px; margin: 0 0 20px; padding: 0; }
+h4 { font-size: 16px; margin: 0 0 15px; padding: 0; }
+h5 { font-size: 14px; margin: 0 0 10px; padding: 0;  }
+h6 { font-size: 12px; margin: 0 0 5px; padding: 0; font-weight: 700 }
+
+.cleaner { clear: both }
+.h10 { height: 10px }
+.h20 { height: 20px }
+.h30 { height: 30px }
+.h40 { height: 40px }
+.h50 { height: 50px }
+.divider { margin-bottom: 40px; padding-bottom: 20px; background: url(../images/templatemo_divider.png) repeat-x bottom }
+
+.float_l { float: left }
+.float_r { float: right }
+
+#templatemo_wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#templatemo_header {
+	padding: 40px 0 10px;
+}
+
+#templatmeo_menu {
+	height: 50px;
+	padding: 10px 0;
+	background-color: #39CFEA;
+}
+
+#templatemo_main {
+	padding: 30px;
+	background-color:#E8FEFF; 
+}
+
+#templatemo_footer {
+	padding: 40px 0 20px;
+	text-align: center;
+	color: #7777ff;
+}
+
+#site_title { display: block; width: 400px; margin: 0 auto; }
+#site_title a {
+	display: block;
+	width: 350px;
+	height: 50px;
+	text-indent: -10000px;
+	background: url(../images/templatemo_logo.png) no-repeat;
+	background-size : 350px
+}
+
+#templatmeo_menu ul { text-align:center;margin:0; padding: 0; list-style: none }
+#templatmeo_menu ul li { display:inline-block;margin: 0; padding: 0; }
+#templatmeo_menu ul li a { display: block; position: relative; float: left; margin-left: 10px; width: 160px; height: 49px }
+#templatmeo_menu ul li a span { position: absolute; width: 30px; height: 30px; top: 8px; left: 10px; }
+
+#templatmeo_menu ul li a.home { background: url(../images/kurs_home.png); background-size : 160px}
+#templatmeo_menu ul li a.home span { background: url(../images/icon_home.png) ; background-size : 30px}
+#templatmeo_menu ul li a.home:hover span {  background: url(../images/icon_home_hover.png)  ; background-size : 30px}
+
+#templatmeo_menu ul li a.ticket { background: url(../images/kurs_ticket.png) ; background-size : 160px}
+#templatmeo_menu ul li a.ticket span { background: url(../images/icon_ticket.png)  ; background-size : 30px}
+#templatmeo_menu ul li a.ticket:hover span {  background: url(../images/icon_ticket_hover.png)  ; background-size : 30px}
+
+#templatmeo_menu ul li a.passenger { background: url(../images/kurs_passenger.png) ; background-size : 160px}
+#templatmeo_menu ul li a.passenger span { background: url(../images/icon_passenger.png)  ; background-size : 30px}
+#templatmeo_menu ul li a.passenger:hover span {  background: url(../images/icon_passenger_hover.png) ; background-size : 30px }
+
+#templatmeo_menu ul li a.trans { background: url(../images/kurs_transport.png); background-size : 160px }
+#templatmeo_menu ul li a.trans span { background: url(../images/icon_transport.png) ; background-size : 30px }
+#templatmeo_menu ul li a.trans:hover span {  background: url(../images/icon_transport_hover.png) ; background-size : 30px}
+
+#templatmeo_menu ul li a.station { background: url(../images/kurs_station.png) ; background-size : 160px}
+#templatmeo_menu ul li a.station span { background: url(../images/icon_station.png) ; background-size : 30px }
+#templatmeo_menu ul li a.station:hover span {  background: url(../images/icon_station_hover.png)  ; background-size : 30px}
+
+#templatmeo_menu ul li a.trip { background: url(../images/kurs_trip.png) ; background-size : 160px}
+#templatmeo_menu ul li a.trip span { background: url(../images/icon_trip.png) ; background-size : 30px }
+#templatmeo_menu ul li a.trip:hover span {  background: url(../images/icon_trip_hover.png) ; background-size : 30px }
+
+
+#templatemo_main h1 {padding: 10px 0 10px 25px; font-size: 28px; background: url(../images/header.png) no-repeat left center }
+
+.main_box {
+	min-height: 500px;
+	padding: 30px 0;
+	margin-bottom: 30px;
+}
+
+.home_div{
+	width: 340px;
+	height: 340px;
+	background:  url(../images/pie_chart.png) no-repeat; 
+	background-size : 340px;
+}
+.struct_div{
+	width: 50%;
+	background:  url(../images/struct.png) no-repeat; 
+}
+
+table{
+	color: #333;	
+	width: 100%;
+	margin: 0;
+	border: none;
+	border-collapse: collapse;
+}
+
+td, th{
+	background-color: rgba(0, 207, 255, 0.27);
+	padding: 5px 10px 5px 5px;
+	text-align: center;
+	border-bottom: 1px solid #333333;
+	
+}
+
+th {
+	background-color:#0BD;
+	color: #ff3;
+}
+
+.button{
+  width:100px;
+  background:#3399cc;
+  display:block;
+  margin:0 auto;
+  margin-top:1%;
+  padding:10px;
+  text-align:center;
+  text-decoration:none;
+  color:#fff;
+  cursor:pointer;
+  transition:background .3s;
+  -webkit-transition:background .3s;
+}
+
+.button:hover{
+  background:#2288bb;
+}
+
+#login{
+	border-style:solid;
+	border-color:#3CF;
+	border-radius:5;
+  width:400px;
+  margin:0 auto;
+  margin-top:8px;
+  margin-bottom:2%;
+  transition:opacity 1s;
+  -webkit-transition:opacity 1s;
+}
+
+#login h1{
+  background:#3399cc;
+  padding:20px 0;
+  font-size:140%;
+  font-weight:300;
+  text-align:center;
+  color:#fff;
+}
+
+#login form{
+  background:#f0f0f0;
+  padding:6% 4%;
+}
+
+#login input[type="text"],input[type="password"]{
+  width:92%;
+  background:#fff;
+  margin-bottom:4%;
+  border:1px solid #ccc;
+  padding:4%;
+  font-family:'Open Sans',sans-serif;
+  font-size:95%;
+  color:#555;
+}
+
+#login input[type="submit"]{
+  width:100%;
+  background:#3399cc;
+  border:0;
+  padding:4%;
+  font-family:'Open Sans',sans-serif;
+  font-size:100%;
+  color:#fff;
+  cursor:pointer;
+  transition:background .3s;
+  -webkit-transition:background .3s;
+}
+
+#login input[type="submit"]:hover{
+  background:#2288bb;
+}
+
+input[type="submit"]{
+  width:100%;
+  background:#3399cc;
+  border:0;
+  padding:1%;
+  font-family:'Open Sans',sans-serif;
+  font-size:100%;
+  color:#fff;
+  cursor:pointer;
+  transition:background .3s;
+  -webkit-transition:background .3s;
+}
+
+#header {
+	background:#3CF;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	color:#009;
+}
+#header a:link {
+    color: #009;
+   }
+#header a:visited {
+    color: #009;
+   }
